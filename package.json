@@ -6,10 +6,8 @@
   "module": "main.js",
   "dependencies": {
     "document-register-element": "1.11.0",
-    "esm": "^3.0.84",
     "hyperhtml-element": "2.3.1",
-    "octicons": "8.1.0",
-    "sizzle": "^2.3.3"
+    "octicons": "8.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -20,8 +18,8 @@
     "babel-plugin-istanbul": "^5.0.1",
     "basichtml": "^0.19.0",
     "cross-env": "^5.2.0",
-    "istanbul": "^1.1.0-alpha.1",
     "nyc": "^13.0.1",
+    "sizzle": "^2.3.3",
     "tressa": "^0.3.1"
   },
   "scripts": {
