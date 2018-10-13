@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["@babel/env",
+      {
+        "targets": {
+          "firefox": "52"
+        }
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "istanbul"
+      ]
+    }
+  }
+}
