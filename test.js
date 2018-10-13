@@ -17,7 +17,7 @@ const HyperHTMLElement = require('hyperhtml-element').default;
 const {
     wire
 } = HyperHTMLElement;
-require("./main.js");
+require("./index.js");
 
 document.readyState = 'complete';
 document.dispatchEvent(new Event('DOMContentLoaded'));
